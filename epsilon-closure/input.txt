@@ -1,0 +1,23 @@
+Enter the number of alphabets: if epsilon is present, enter it the last:3
+
+ Enter the symbols:a b e
+
+ Enter the number of states:4
+
+ Enter the number of transitions:5
+
+ Enter the transitions
+ 1e2
+2a3
+3e4
+1e4
+3e2
+
+ Epsilon transitions are
+ q1 - {q1, q4, q2, }
+
+ q2 - {q2, }
+
+ q3 - {q3, q2, q4, }
+
+ q4 - {q4, }
